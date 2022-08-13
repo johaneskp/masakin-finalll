@@ -1,0 +1,464 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+	position: fullwidth;
+}
+
+.header{
+	 
+	width: 100%;
+	height: 80px;
+	background: #FA4027; 
+}
+
+.header img{
+	height: 70px;  
+}
+
+a {
+text-decoration : none;
+}
+/*
+.register a{
+	position: absolute;
+	width: 57px;
+	height: 50px;
+	left: 1333px;
+	top: 30px;
+	color: white;
+}
+
+
+.home a{
+	position: absolute;
+	width: 45.48px;
+	height: 50px;
+	left: 1137.76px;
+	top: 30px;
+	color:black ;
+}
+
+
+.search a{
+	position: absolute;
+	width: 49px;
+	height: 50px;
+	left: 1234px;
+	top: 30px;
+	color:white ;
+}
+
+
+.content img{
+	float: left;
+	position: absolute;
+	width: 410px;
+	height: 410px;
+	left: 70px;
+	top: 126px;
+}
+
+.content h1{
+	position: absolute;
+	width: 535px;
+	height: 246px;
+	left: 762px;
+	top: 226px;
+}
+
+.kategori h3{
+	position: absolute;
+	width: 314px;
+	height: 58px;
+	left: 120px;
+	top: 546px;
+}
+
+.gambar1 img{
+	position: absolute;
+	width: 313px;
+	height: 212px;
+	left: 133px;
+	top: 621px;
+	float: left;
+}
+
+.gambar1 h4{
+	position: absolute;
+width: 156px;
+height: 47px;
+left: 133px;
+top: 581px;
+color: red;
+}
+
+
+.gambar2{
+	position: absolute;
+	width: 358px;
+	height: 242px;
+	left: 556px;
+	top: 621px;
+}
+
+.gambar2 h4{
+	position: absolute;
+width: 156px;
+height: 47px;
+left: 130px;
+top: 75px;
+color: red;
+}
+
+.gambar3{
+	position: absolute;
+	width: 358px;
+	height: 242px;
+	left: 982px;
+	top: 621px;
+}
+
+.gambar3 h4{
+	position: absolute;
+width: 156px;
+height: 47px;
+left: 130px;
+top: 75px;
+color: red;
+}
+
+.footer{
+	 
+	width: 100%;
+	height: 126px; 
+	background: #FA4027;
+}
+
+.fb img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 645px;
+	top: 33px;
+}
+
+.ig img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 705px;
+	top: 33px;
+}
+
+.twit img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 765px;
+	top: 33px;
+}
+
+h3{
+	position: absolute;
+width: 458px;
+height: 28px;
+left: 581px;
+top: 63px;
+color: white;
+}
+*/
+.container-box{
+	width: 1024px;
+    margin: auto;
+}
+
+.kategoriy{
+	padding-left: 150px;
+}
+
+.kategoriy h1{
+  color: #FA4027;
+}
+ul {
+	list-style-type: none;
+    display: inline;
+    float: right; 
+    margin-top: 30px;
+}
+.header ul.menu li{    
+	display: contents;
+}
+
+ul.menu li a{
+	padding:10px;
+	font-weight: bold;
+	color: white;
+}
+
+ul.menu li a:hover{
+	color: black;
+}
+
+.menu .sign{
+	color: black;
+}
+
+.content img{
+	width: 100%;
+}
+
+.text-center{
+	text-align: center !important;
+	color: #FA4027;
+}
+.text-right{
+	text-align: left !important;
+	color: #FA4027;
+}
+.text-right h3{
+	padding-left: 35px;
+}
+
+.text-right button{
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+.text-right .button-l{
+			margin-bottom: 130px;
+			margin-left: 30px;
+}
+
+.text-right .button-l .button-daftar{
+	padding-left: 230px;
+	margin-top: -95px;
+}
+
+.text-right .button-l .button-daftar h5{
+	margin-bottom:4px ;
+}
+
+.text-right .gambar-login{
+		float: right;
+		padding-left: 40px;
+		margin-top: -50px;
+		width: 450px;
+}
+
+
+.text-top{vertical-align: top !important}
+
+.inline{
+	display: table-cell;
+	vertical-align: middle;
+}
+.w-50{
+	width: 50%;
+}
+.content-right{
+	text-align: left;
+}
+
+.content-right h1{
+	color: #FA4027;
+}
+
+.gambar{
+	width: 33.33333333%;
+	padding: 10px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.gambar img{
+	width: 100%;
+	box-shadow: 0 11px 10px rgba(0, 0, 0, .2);
+	border-radius: 5px;
+}
+
+.gambar a{
+	color: black;
+}
+
+.gambar a:hover{
+	color: #FA4027;
+}
+
+.deskripsi{
+	padding: 10px;
+}
+.deskripsi h4, .deskripsi p{
+	margin: 10px 0;
+}
+
+.deskripsi p{
+		font-size: 18px;
+		padding-right: 100px;
+}
+
+.deskripsi h4{
+		font-size: 20px;
+}
+
+.deskripsi a{
+	color: black;
+}
+
+.deskripsi a:hover{
+	color: #FA4027;
+}
+
+
+
+.footer{
+	position: relative;
+    bottom: 0;
+	width: 100%;
+	height: 126px; 
+	background: #FA4027;
+	text-align: center;
+}
+
+
+.icon {display: inline}
+
+.icon img{
+	width: 50px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.footer h4{
+	color: #fff;
+	margin: 10px auto 15px;
+}
+
+.form{
+	margin: 30px;
+}
+
+.form-inline input{
+	display: inline;
+}
+
+.form-input .btn{
+	cursor: pointer;
+}
+
+.register{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.search .input, .register .input{
+		width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px #fa4027;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+.search .btn, .register .btn{
+	height: 54px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 2px #fa4027;
+    background: #fa4027;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.search .btn{
+	cursor: pointer;
+}
+
+.register .input{
+	width: 40%;
+}
+
+.register .btn{
+	width: 20%;
+}
+
+.gambar-makanan{
+	margin-bottom: 2%;
+}
+
+.isi{
+	background-color: white;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+	margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.isi img{
+	border-radius: 5px;
+}
+.isi a{
+	color: black;
+}
+.isi a:hover{
+	color: #FA4027;
+}
+
+.konten-deskripsi{
+	text-align: left;
+}
+.penulis{
+	font-size: 13px;
+    color: #f5bf45;
+}
+@media only screen and (max-width: 600px) {
+  .container-box{
+		width: 540px;
+	    margin: auto;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+  .container-box{
+		width: 380px;
+	    margin: auto;
+	}
+}
+
+.gambar-login{
+	position: fullwidth;
+width: 532px;
+height: 507px;
+left: 20px;
+top: 258px;
+}
+
+.judul-login{
+position: absolute;
+left: 795px;
+top: 100px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 49px;
+}
+
+.input-username{
+position: absolute;
+width: 300px;
+height: 50px;
+left: 795px;
+top: 204px;
+
+background: rgba(196, 196, 196, 0.2);
+border: 1px solid #A39797;
+box-sizing: border-box;
+border-radius: 10px;
+}
